@@ -1,13 +1,13 @@
 # CSci 3601 Lab #1 - HTML and CSS Lab <!-- omit in toc -->
 
-* [Setup Instructions](#setup-instructions)
-* ["Running" your project](#running-your-project)
-  * [Our Team's GitHub Pages URL](#our-teams-github-pages-url)
-  * [Version Control Reminder](#version-control-reminder)
-* [Resources](#resources)
-  * [Good commit messages and pull requests](#good-commit-messages-and-pull-requests)
-  * [Validating your code](#validating-your-code)
-  * [Potentially useful resources](#potentially-useful-resources)
+- [Setup Instructions](#setup-instructions)
+- ["Running" your project](#running-your-project)
+  - [Our Team's GitHub Pages URL](#our-teams-github-pages-url)
+  - [Version Control Reminder](#version-control-reminder)
+- [Resources](#resources)
+  - [Good commit messages and pull requests](#good-commit-messages-and-pull-requests)
+  - [Validating your code](#validating-your-code)
+  - [Potentially useful resources](#potentially-useful-resources)
 
 In this lab you will learn to alter the look of a simple HTML website using CSS,
 following best practices and using validated code, all while using version control
@@ -42,12 +42,9 @@ the branch `main`, leave everything else at their defaults, and save your settin
 > responsible version control and only push completed features to your `main`
 > branch.
 >
-> When you publish your site to GitHub pages, GitHub will display the URL
-> where you can find your published site. The primary repo we use to manage
-> changes to this lab across semesters is published
-> at <http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/>;
-> yours will be at a different URL but should look somewhat similar.
 >
+> <https://umm-csci-3601-s21.github.io/lab-1-elmurad-jadyn/.>;
+
 > :bangbang: Once you have that URL, please include it in the "Website" box in the
 > description at the top of your GitHub project page. Click the "Edit" button on the
 > right hand side (just under "Settings") and that should give you a "Description" and
