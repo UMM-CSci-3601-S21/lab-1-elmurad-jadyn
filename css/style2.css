@@ -7,7 +7,7 @@ use float to make something locate itself on the right or left
 */
 
 body {
-  padding: 500px;
+  padding: 30px;
   background-color: #D0C8C8;
   display: block;
   flex-direction: column;
@@ -42,8 +42,8 @@ h2 {
 
 .section {
   border-radius: 50px;
-  padding: 15px;
-  border: 10;
+  padding: 10px;
+  border: 50px;
   border-style:dashed;
   border-color: #151A1D;
   margin: 10px;
@@ -95,6 +95,7 @@ h2 {
 .office {
   padding-left:10;
   font-family:monospace;
+  font-size:1.8rem
 }
 
 img.pic {
@@ -151,24 +152,12 @@ img.pic {
   font-size: 2rem;
 }
 
-#sources >.local {
-  font: 1rem;
-  background-color: #3090a1;
+.local a:link{
+  background-color:rgb(182, 175, 175);
 }
 
-#sources >.cloud {
-  font-size: 1rem;
-  background-color: #5153cf;
+.cloud a:link{
+  background-color:none;
 }
 
-#sources > .ide a:link{
-  color:#000000;
-}
 
-#sources > .version-control a:link{
-  color:#aebeeb44;
-}
-
-#sources > .testing a:link{
-  color:#1e09df;
-}
