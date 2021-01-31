@@ -146,23 +146,23 @@ img.pic {
   font-size: 2rem;
 }
 
-.sources > .local a:link {
+.local {
   font: 1rem;
 }
 
-.sources > .cloud a:link {
+.cloud {
   font-style: bold;
   font-size: 1rem;
 }
 
-.sources > .ide a:link{
+.ide {
   color:#000
 }
 
-.sources > .version-control a:link{
+.version-control {
   color:#f9f7f6
 }
 
-.sources > .testing a:link{
+.testing {
   color:#8f8f8f
 }
