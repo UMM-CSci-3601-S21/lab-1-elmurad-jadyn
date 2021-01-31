@@ -9,7 +9,7 @@ use float to make something locate itself on the right or left
 body {
   padding: 30px;
   background-color: #D0C8C8;
-  display: flex;
+  display: block;
   flex-direction: column;
   align-items: center;
   justify-content: center
@@ -22,7 +22,7 @@ body {
  */
  @media screen and (min-width: 925px) {
   .pslo-courses-container {
-    display: flex;
+    display: block;
     flex-direction: column;
     max-width: 53em;
   }
@@ -37,7 +37,7 @@ body {
 
 h2 {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .section {
@@ -69,7 +69,7 @@ h2 {
 }
 
 #faculty > ul > li {
-  display: inline-block;
+  display: display-inside;
   font-family:Georgia, 'Times New Roman', Times, serif;
   padding: 20px;
 }
@@ -162,7 +162,7 @@ img.pic {
 }
 
 .ide a:link{
-  color: rgba(8, 13, 37, 0.533);
+  color:#000000;
 }
 
 .version-control a:link{
