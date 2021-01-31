@@ -137,12 +137,12 @@ img.pic {
   padding: 25px;
 }
 
-.sources {
+#sources {
   background-color: #5a5959;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.sources > h2 {
+#sources > h2 {
   font-size: 2rem;
 }
 
