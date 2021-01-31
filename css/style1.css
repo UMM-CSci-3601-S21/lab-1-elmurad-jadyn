@@ -137,32 +137,32 @@ img.pic {
   padding: 25px;
 }
 
-#sources {
+.sources {
   background-color: #5a5959;
   font-family: 'Courier New', Courier, monospace;
 }
 
-#sources > h2 {
+.sources > h2 {
   font-size: 2rem;
 }
 
-#sources > #local a:link {
+.sources > .local a:link {
   font: 1rem;
 }
 
-#sources > #cloud a:link {
+.sources > .cloud a:link {
   font-style: italic;
   font-size: 1rem;
 }
 
-#ide a:link{
+.ide a:link{
   color:#000
 }
 
-#version-control a:link{
+.version-control a:link{
   color:#f9f7f6
 }
 
-#testing a:link{
+.testing a:link{
   color:#8f8f8f
 }
