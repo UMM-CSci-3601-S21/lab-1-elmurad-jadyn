@@ -8,5 +8,166 @@ use float to make something locate itself on the right or left
 
 body {
   padding: 30px;
-  background-color: #ffffff;
+  background-color: #D0C8C8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center
+}
+
+/*
+ * Use of media query to change the flex-direction of the #pslo and #courses
+ * elements when the width of the screen exceeds 925px to put
+ * them side-by-side.
+ */
+ @media screen and (min-width: 925px) {
+  .pslo-courses-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 53em;
+  }
+}
+
+#main-title {
+  color: #151A1D;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 6rem;
+}
+
+h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.section {
+  border-radius: 50px;
+  padding: 15px;
+  border: 10;
+  border-style:dashed;
+  border-color: #151A1D;
+  margin: 10px;
+  max-width: 48em;
+}
+
+#courses {
+  background-color: #3F5877;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pslo {
+  background-color: #3F5887;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#faculty {
+  background-color: #3F5887;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+#faculty > ul > li {
+  display: inline-block;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+#faculty-list {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* This tell's the flex items to wrap if there
+                      isn't enough space for all of the items. Without this the
+                      faculty images will be in a row and only resize well unitl around
+                      550px width of screen. */
+  justify-content: center;
+  align-content: center;
+}
+
+.name {
+  padding-left:10;
+  font-family:cursive;
+  font-size: 2rem;
+}
+
+.office {
+  padding-left:10;
+  font-family:monospace;
+}
+
+img.pic {
+  width: 100%;
+  border: 8px solid #000000;
+}
+
+#style-selector {
+  position: fixed;
+  background-color: #87939C;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 46px;
+  padding-top: 20px;
+}
+
+#style-selector ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #253549;
+}
+
+#style-selector li {
+  float: right;
+}
+
+#style-selector li a {
+  display: block;
+  color: #3F5877;
+  text-align: center;
+  padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
+  text-decoration: none;
+}
+
+#style-selector li a:hover {
+  background-color: #151A1D;
+}
+
+#validation {
+  font-size: 1rem;
+  background-color: #D0C8C8;
+  padding: 25px;
+}
+
+#sources {
+  background-color: #3F5877;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sources > h2 {
+  font-size: 2rem;
+}
+
+.local {
+  font: 1rem;
+  background-color: #42d4ee
+}
+
+.cloud {
+  font-size: 1rem;
+  background-color: none;
+}
+
+.ide a:link{
+  color: rgba(26, 60, 212, 0.533);
+}
+
+.version-control a:link{
+  color:#8489d8;
+}
+
+.testing a:link{
+  color:#467a8a;
 }
