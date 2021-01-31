@@ -7,12 +7,12 @@ use float to make something locate itself on the right or left
 */
 
 body {
-  padding: 30px;
+  padding-top: 10px; /* has a padding of 10 at the top*/
   background-color: #D0C8C8;
   display: block;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center
+  flex-direction: column; /* items will be shown in a column */
+  align-items: center; /*centers the items */
+  justify-content: center;
 }
 
 /*
@@ -105,7 +105,7 @@ img.pic {
 
 #style-selector {
   position: fixed;
-  background-color: #87939C;
+  background-color: #30ebf1;
   left: 0;
   right: 0;
   top: 0;
@@ -159,5 +159,3 @@ img.pic {
 .cloud a:link{
   background-color:none;
 }
-
-
