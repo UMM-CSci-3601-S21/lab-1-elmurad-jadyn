@@ -146,22 +146,10 @@ img.pic {
 }
 
 .local {
-  font: 1rem;
+  background-color:rgb(182, 175, 175);
 }
 
 .cloud {
-  font-style: bold;
-  font-size: 1rem;
+  background-color:none;
 }
 
-.ide a:link{
-  color:#000;
-}
-
-.version-control a:link{
-  color:#f9f7f6;
-}
-
-.testing a:link{
-  color:#8f8f8f;
-}
