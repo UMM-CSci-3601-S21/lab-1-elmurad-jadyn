@@ -146,12 +146,13 @@ img.pic {
   font-size: 2rem;
 }
 
-#local {
-  font-size:0.8rem;
+#sources > #local {
+  font: 1rem;
 }
-#cloud {
+
+#sources > #cloud {
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 #ide {
