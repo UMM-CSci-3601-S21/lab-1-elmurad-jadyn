@@ -23,7 +23,7 @@ body {
  @media screen and (min-width: 925px) {
   .pslo-courses-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 53em;
   }
 }
@@ -62,7 +62,7 @@ h2 {
 #faculty {
   background-color: #3F5887;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: center;
   align-content: center;
 }
