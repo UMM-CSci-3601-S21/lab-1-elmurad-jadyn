@@ -146,12 +146,12 @@ img.pic {
   font-size: 2rem;
 }
 
-.sources > .local a:link {
+.local a:link {
   font: 1rem;
 }
 
-.sources > .cloud a:link {
-  font-style: italic;
+.cloud a:link {
+  font-style: bold;
   font-size: 1rem;
 }
 
