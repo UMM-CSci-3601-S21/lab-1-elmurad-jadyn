@@ -139,7 +139,6 @@ img.pic {
 
 #sources {
   background-color: #5a5959;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 #sources > h2 {
@@ -156,13 +155,13 @@ img.pic {
 }
 
 .ide a:link{
-  color:#000
+  color:#000;
 }
 
 .version-control a:link{
-  color:#f9f7f6
+  color:#f9f7f6;
 }
 
 .testing a:link{
-  color:#8f8f8f
+  color:#8f8f8f;
 }
