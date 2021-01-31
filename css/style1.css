@@ -155,7 +155,7 @@ img.pic {
   font-size: 1rem;
 }
 
-.ide {
+.ide a:link{
   color:#000
 }
 
