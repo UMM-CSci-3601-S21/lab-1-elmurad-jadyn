@@ -159,10 +159,10 @@ img.pic {
   color:#000
 }
 
-.version-control {
+.version-control a:link{
   color:#f9f7f6
 }
 
-.testing {
+.testing a:link{
   color:#8f8f8f
 }
