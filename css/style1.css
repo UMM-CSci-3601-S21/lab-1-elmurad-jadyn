@@ -145,11 +145,11 @@ img.pic {
   font-size: 2rem;
 }
 
-.local {
+.local a:link{
   background-color:rgb(182, 175, 175);
 }
 
-.cloud {
+.cloud a:link{
   background-color:none;
 }
 
