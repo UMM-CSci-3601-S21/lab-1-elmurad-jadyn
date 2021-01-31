@@ -10,7 +10,7 @@ body {
   padding: 30px;
   background-color: #D0C8C8;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center
 }
@@ -152,12 +152,12 @@ img.pic {
 
 .local {
   font: 1rem;
-  background-color: #42d4ee
+  background-color: #42d4ee;
 }
 
 .cloud {
   font-size: 1rem;
-  background-color: none;
+  background-color: #3115af;
 }
 
 .ide a:link{
