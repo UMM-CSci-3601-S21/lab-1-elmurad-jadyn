@@ -136,3 +136,32 @@ img.pic {
   background-color: #d5d6d2;
   padding: 25px;
 }
+
+#sources {
+  background-color: #5a5959;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#sources > h2 {
+  font-size: 2rem;
+}
+
+#local {
+  font-size:0.8rem;
+}
+#cloud {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+#ide {
+  color:#000
+}
+
+#version-control {
+  color:#f9f7f6
+}
+
+#testing {
+  color:#8f8f8f
+}
