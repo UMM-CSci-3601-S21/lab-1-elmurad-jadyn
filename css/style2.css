@@ -36,7 +36,8 @@ body {
 }
 
 h2 {
-  font-family:Georgia, 'Times New Roman', Times, serif
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 4rem;
 }
 
 .section {
@@ -152,22 +153,22 @@ img.pic {
 
 .local {
   font: 1rem;
-  background-color: #42d4ee;
+  background-color: #3090a1;
 }
 
 .cloud {
   font-size: 1rem;
-  background-color: #3115af;
+  background-color: #5153cf;
 }
 
 .ide a:link{
-  color: rgba(26, 60, 212, 0.533);
+  color: rgba(8, 13, 37, 0.533);
 }
 
 .version-control a:link{
-  color:#8489d8;
+  color:#aebeeb44;
 }
 
 .testing a:link{
-  color:#467a8a;
+  color:#1e09df;
 }
