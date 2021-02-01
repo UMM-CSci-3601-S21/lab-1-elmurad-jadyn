@@ -10,9 +10,9 @@ use float to make something locate itself on the right or left
 body {
   padding-top: 0px; /* has a padding of 0 at the top*/
   background-color: #D0C8C8;
-  display: block; /* We chose to do block so that we could have a good flow
+  display: flex; /* We chose to do block so that we could have a good flow
                   one box onto of the next and so on */
-  /* flex-direction: column; /* items will be shown in a column */
+  flex-direction: column; /* items will be shown in a column */
   align-items: center; /*centers the items */
   justify-content: center;
 }
