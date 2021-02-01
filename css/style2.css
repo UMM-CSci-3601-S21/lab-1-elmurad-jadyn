@@ -34,34 +34,29 @@ h2 {
 }
 
 .section{
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px; /* This gives us a nice even border*/
   padding: 20px;
   border: 50px;
   border-style:dashed; /* We did this to have a dashed border*/
   border-color: #151A1D;
   margin: 30px;
   max-width: 48em;
-  align-items: center;
+  align-items: center; /* this centers the items*/
   justify-content: center;
 }
 
 .card {
   border: 5px;
-  border-radius: 150px 150px 150px 150px;
+  border-radius: 150px 150px 150px 150px; /*This gives us a nice even border */
   padding: 20px;
   margin: 10px;
   max-width: 48em;
-  align-items: center;
+  align-items: center; /*This centers the items */
   justify-content: center;
 }
 
-#courses {
+#courses, #pslo { /* We used grouping to keep these texts and background color consistent*/
   background-color: #3F5877;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#pslo {
-  background-color: #3F5887;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -70,9 +65,9 @@ h2 {
   display: flex; /* We chose to do flex so that we could have a good flow
   one box onto of the next and so on but then stayed with flex so that the website is
   responsive on other devices as well*/
-  text-align: left;
+  text-align: left; /* makes the text start from the left*/
   flex-direction: row-reverse; /*We row-reverse this so that the label faculty would be on the right */
-  justify-content: center;
+  justify-content: center; /* centers the text*/
   align-content: center;
 }
 
@@ -87,8 +82,8 @@ h2 {
   display: flex; /* We chose to do flex so that we could have a good flow
   one box onto of the next and so on but then stayed with flex so that the website is
   responsive on other devices as well*/
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: row; /* this will make the faculty list be listed as rows*/
+  justify-content: center; /* this centers the faculty list*/
   align-content: center;
 }
 
@@ -117,7 +112,7 @@ img.pic {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: hidden; /* this will change the amount of the element based on the browser used*/
   background-color: #253549;
 }
 
