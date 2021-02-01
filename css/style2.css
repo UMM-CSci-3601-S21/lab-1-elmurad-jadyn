@@ -51,14 +51,16 @@ h2 {
   font-size: 3rem;
 }
 
-.section {
+.section, .pslo-courses-container, .sources{
   border-radius: 50px;
   padding: 10px;
-  border: 50px;
+  border: 50px black;
   border-style:dashed;
   border-color: #151A1D;
-  margin: 10px;
+  margin: 30px;
   max-width: 48em;
+  justify-content: center;
+  align-items: center;
 }
 
 #courses {
