@@ -27,6 +27,14 @@ body {
   }
 }
 
+@media screen and (min-width: 925px) {
+  .sources {
+    display: flex;
+    flex-direction: row;
+    max-width: 53em;
+  }
+}
+
 #main-title {
   color: #ffde7a;
   font-family: "Patua One", monospace;
