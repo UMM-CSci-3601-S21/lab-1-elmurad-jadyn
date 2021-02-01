@@ -10,7 +10,7 @@ use float to make something locate itself on the right or left
 body {
   padding-top: 0px; /* has a padding of 0 at the top*/
   background-color: #D0C8C8;
-  display: flex; /* We chose to do block so that we could have a good flow
+  display: flex; /* We chose to do flex so that we could have a good flow
                   one box onto of the next and so on but then stayed with flex so that the website is
                   responsive on other devices as well*/
   flex-direction: column; /* items will be shown in a column */
@@ -20,7 +20,9 @@ body {
 
 @media screen and (min-width: 925px) {
   .section {
-    display: flex;
+    display: flex; /* We chose to do flex so that we could have a good flow
+    one box onto of the next and so on but then stayed with flex so that the website is
+    responsive on other devices as well*/
     flex-direction: row; /* We chose to do row so it would switch when we needed it to*/
     max-width: 53em;
   }
@@ -65,14 +67,16 @@ h2 {
 
 #faculty {
   background-color: #3F5887;
-  display: flex;
+  display: flex; /* We chose to do flex so that we could have a good flow
+  one box onto of the next and so on but then stayed with flex so that the website is
+  responsive on other devices as well*/
   text-align: left;
   flex-direction: row-reverse; /*We row-reverse this so that the label faculty would be on the right */
   justify-content: center;
   align-content: center;
 }
 
-#faculty > ul > li {
+#faculty > ul > li { /* This the list of professors is nested in the id faculty so that we can change its font and padding*/
   display: display-inside; /* This will display the list of professors and their pictures inside the box for faculty*/
   font-family:Georgia, 'Times New Roman', Times, serif;
   padding: 20px;
@@ -80,22 +84,18 @@ h2 {
 
 #faculty-list {
   padding-left: 0;
-  display: flex;
+  display: flex; /* We chose to do flex so that we could have a good flow
+  one box onto of the next and so on but then stayed with flex so that the website is
+  responsive on other devices as well*/
   flex-direction: row;
   justify-content: center;
   align-content: center;
 }
 
-.name {
+.name, .office { /*this groups the names of the faculty and their office numbers so that they look the same */
   padding-left:10;
   font-family:cursive;
   font-size: 2rem;
-}
-
-.office {
-  padding-left:10;
-  font-family:monospace;
-  font-size:1.8rem
 }
 
 img.pic {
@@ -104,7 +104,7 @@ img.pic {
 }
 
 #style-selector {
-  position: fixed;
+  position: fixed; /* We did this so that it wouldn't move*/
   background-color: #30ebf1;
   left: 0;
   right: 0;
@@ -122,7 +122,8 @@ img.pic {
 }
 
 #style-selector li {
-  float: right;
+  float: right; /*This moved our style selector buttons to the right of the page,
+  because it fit better there */
 }
 
 #style-selector li a {
@@ -149,7 +150,7 @@ img.pic {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#sources > h2 {
+#sources > h2 { /*This is the header is nested in with the class it is in so that we can set the font-size:2 */
   font-size: 2rem;
 }
 
