@@ -80,7 +80,7 @@ h2 {
 #faculty {
   background-color: #3F5887;
   display: flex;
-  text-align: center;
+  text-align: left;
   flex-direction: row-reverse;
   justify-content: center;
   align-content: center;
