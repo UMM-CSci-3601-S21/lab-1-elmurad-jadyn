@@ -18,25 +18,10 @@ body {
   justify-content: center;
 }
 
-/*
- * Use of media query to change the flex-direction of the #pslo and #courses
- * elements when the width of the screen exceeds 925px to put
- * them side-by-side.
- */
- /*@media screen and (min-width: 925px) {
-  .pslo-courses-container {
-    display: block;
-    flex-direction: column;
-    max-width: 53em;
-  }
-} */
-
-
-
 @media screen and (min-width: 925px) {
   .section {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* We chose to do row so it would switch when we needed it to*/
     max-width: 53em;
   }
 }
@@ -45,11 +30,12 @@ h2 {
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 3rem;
 }
+
 .section{
   border-radius: 50px 50px 50px 50px;
   padding: 20px;
   border: 50px;
-  border-style:dashed;
+  border-style:dashed; /* We did this to have a dashed border*/
   border-color: #151A1D;
   margin: 30px;
   max-width: 48em;
@@ -81,13 +67,13 @@ h2 {
   background-color: #3F5887;
   display: flex;
   text-align: left;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; /*We row-reverse this so that the label faculty would be on the right */
   justify-content: center;
   align-content: center;
 }
 
 #faculty > ul > li {
-  display: display-inside;
+  display: display-inside; /* This will display the list of professors and their pictures inside the box for faculty*/
   font-family:Georgia, 'Times New Roman', Times, serif;
   padding: 20px;
 }
@@ -96,10 +82,6 @@ h2 {
   padding-left: 0;
   display: flex;
   flex-direction: row;
-  /*flex-wrap: wrap; /* This tell's the flex items to wrap if there
-                      isn't enough space for all of the items. Without this the
-                      faculty images will be in a row and only resize well until around
-                      550px width of screen. */
   justify-content: center;
   align-content: center;
 }
@@ -162,7 +144,7 @@ img.pic {
 }
 
 
-#sources {
+#sources {  /* This is to have the background color as a blue and shows the font family for the id of sources*/
   background-color: #3F5877;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -171,7 +153,7 @@ img.pic {
   font-size: 2rem;
 }
 
-.local a:link{
+.local a:link{     /* this is to change the color of the background of our link in the local class*/
   background-color:rgb(182, 175, 175);
 }
 
