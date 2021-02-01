@@ -43,7 +43,7 @@ h2 {
   font-size: 3rem;
 }
 .section {
-  border-radius: 50px;
+  border-radius: 50px 50px 50px 50px;
   padding: 20px;
   border: 50px;
   border-style:dashed;
@@ -67,6 +67,7 @@ h2 {
 #faculty {
   background-color: #3F5887;
   display: flex;
+  text-align: center;
   flex-direction: row-reverse;
   justify-content: center;
   align-content: center;
