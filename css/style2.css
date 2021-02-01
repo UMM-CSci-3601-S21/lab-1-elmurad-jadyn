@@ -11,7 +11,8 @@ body {
   padding-top: 0px; /* has a padding of 0 at the top*/
   background-color: #D0C8C8;
   display: flex; /* We chose to do block so that we could have a good flow
-                  one box onto of the next and so on */
+                  one box onto of the next and so on but then stayed with flex so that the website is
+                  responsive on other devices as well*/
   flex-direction: column; /* items will be shown in a column */
   align-items: center; /*centers the items */
   justify-content: center;
@@ -51,6 +52,16 @@ h2 {
   border-style:dashed;
   border-color: #151A1D;
   margin: 30px;
+  max-width: 48em;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 5px;
+  border-radius: 150px 150px 150px 150px;
+  padding: 20px;
+  margin: 10px;
   max-width: 48em;
   align-items: center;
   justify-content: center;
