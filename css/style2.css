@@ -30,16 +30,10 @@ body {
   }
 } */
 
-@media screen and (min-width: 925px) {
-  .pslo-courses-container {
-    display: flex;
-    flex-direction: row;
-    max-width: 53em;
-  }
-}
+
 
 @media screen and (min-width: 925px) {
-  .sources {
+  .section {
     display: flex;
     flex-direction: row;
     max-width: 53em;
@@ -50,7 +44,7 @@ h2 {
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 3rem;
 }
-.section, .pslo-courses-container {
+.section{
   border-radius: 50px 50px 50px 50px;
   padding: 20px;
   border: 50px;
