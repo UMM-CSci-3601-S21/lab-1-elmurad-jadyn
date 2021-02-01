@@ -31,14 +31,6 @@ body {
 } */
 
 @media screen and (min-width: 925px) {
-  .pslo-courses-container {
-    display: flex;
-    flex-direction: row;
-    max-width: 53em;
-  }
-}
-
-@media screen and (min-width: 925px) {
   .sources {
     display: flex;
     flex-direction: row;
@@ -50,27 +42,14 @@ h2 {
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 3rem;
 }
-
-.section{
+.section {
   border-radius: 50px;
   padding: 10px;
-  border: 30px;
+  border: 50px;
   border-style:dashed;
   border-color: #151A1D;
-  max-width: 48em;
-  justify-content: center;
-  align-items: center;
-}
-
-.validation {
-  border: 10px black;
-  border-radius: 150px 150px 150px 150px;
-  padding: 20px;
   margin: 10px;
   max-width: 48em;
-  align-items: center;
-  justify-content: center;
-
 }
 
 #courses {
