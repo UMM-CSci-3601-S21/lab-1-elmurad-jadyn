@@ -6,7 +6,150 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 */
 
+
 body {
-  padding: 30px;
-  background-color: #ffffff;
+  padding-top: 0px; /* has a padding of 0 at the top*/
+  background-color: #D0C8C8;
+  display: flex; /* We chose to do flex so that we could have a good flow
+                  one box onto of the next and so on but then stayed with flex so that the website is
+                  responsive on other devices as well*/
+  flex-direction: column; /* items will be shown in a column */
+  align-items: center; /*centers the items */
+  justify-content: center;
 }
+
+@media screen and (min-width: 925px) {
+  .section {
+    display: flex; /* We chose to do flex so that we could have a good flow
+    one box onto of the next and so on but then stayed with flex so that the website is
+    responsive on other devices as well*/
+    flex-direction: row; /* We chose to do row so it would switch when we needed it to*/
+    max-width: 53em;
+  }
+}
+
+h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+}
+
+.section{
+  border-radius: 50px 50px 50px 50px; /* This gives us a nice even border*/
+  padding: 20px;
+  border: 50px;
+  border-style:dashed; /* We did this to have a dashed border*/
+  border-color: #151A1D;
+  margin: 30px;
+  max-width: 48em;
+  align-items: center; /* this centers the items*/
+  justify-content: center;
+}
+
+.card {
+  border: 5px;
+  border-radius: 150px 150px 150px 150px; /*This gives us a nice even border */
+  padding: 20px;
+  margin: 10px;
+  max-width: 48em;
+  align-items: center; /*This centers the items */
+  justify-content: center;
+}
+
+#courses, #pslo { /* We used grouping to keep these texts and background color consistent*/
+  background-color: #3F5877;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#faculty {
+  background-color: #3F5887;
+  display: flex; /* We chose to do flex so that we could have a good flow
+  one box onto of the next and so on but then stayed with flex so that the website is
+  responsive on other devices as well*/
+  text-align: left; /* makes the text start from the left*/
+  flex-direction: row-reverse; /*We row-reverse this so that the label faculty would be on the right */
+  justify-content: center; /* centers the text*/
+  align-content: center;
+}
+
+#faculty > ul > li { /* This the list of professors is nested in the id faculty so that we can change its font and padding*/
+  display: display-inside; /* This will display the list of professors and their pictures inside the box for faculty*/
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+#faculty-list {
+  padding-left: 0;
+  display: flex; /* We chose to do flex so that we could have a good flow
+  one box onto of the next and so on but then stayed with flex so that the website is
+  responsive on other devices as well*/
+  flex-direction: row; /* this will make the faculty list be listed as rows*/
+  justify-content: center; /* this centers the faculty list*/
+  align-content: center;
+}
+
+.name, .office { /*this groups the names of the faculty and their office numbers so that they look the same */
+  padding-left:10;
+  font-family:cursive;
+  font-size: 2rem;
+}
+
+img.pic {
+  width: 100%;
+  border: 8px solid #000000;
+}
+
+#style-selector {
+  position: fixed; /* We did this so that it wouldn't move*/
+  background-color: #30ebf1;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 46px;
+  padding-top: 20px;
+}
+
+#style-selector ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* this will change the amount of the element based on the browser used*/
+  background-color: #253549;
+}
+
+#style-selector li {
+  float: right; /*This moved our style selector buttons to the right of the page,
+  because it fit better there */
+}
+
+#style-selector li a {
+  display: block;
+  color: #3F5877;
+  text-align: center;
+  padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
+  text-decoration: none;
+}
+
+#style-selector li a:hover {
+  background-color: #151A1D;
+}
+
+#validation {
+  text-align: center;
+  font-size: 1rem;
+  padding: 25px;
+}
+
+
+#sources {  /* This is to have the background color as a blue and shows the font family for the id of sources*/
+  background-color: #3F5877;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sources > h2 { /*This is the header is nested in with the class it is in so that we can set the font-size:2 */
+  font-size: 2rem;
+}
+
+.local a:link{     /* this is to change the color of the background of our link in the local class*/
+  background-color:rgb(182, 175, 175);
+}
+
